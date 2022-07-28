@@ -391,8 +391,8 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     position: 'absolute',
-    right: 20,
-    bottom: 165,
+    top: 215,
+    right: 150,
   },
   monster20Inactive: {
     width: 100,
