@@ -143,9 +143,11 @@ export default function HatchScreen({navigation}) {
 
   if (timerEnded) {
     stopTimer();
-    Alert.alert('Great Job!', 'Your cute monster has hatched', [
-      {text: 'Back', style: 'cancel'},
-    ]);
+    Alert.alert(
+      'Your monster has hatched!',
+      'Check your shelf to visit your monster.',
+      [{text: 'Back', style: 'cancel'}],
+    );
     setTimerEnded(false);
   }
 
