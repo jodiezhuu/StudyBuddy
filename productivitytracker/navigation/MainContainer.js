@@ -2,6 +2,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import {View, Image} from 'react-native';
 
 // Db
 import MonsterContext, {Monster} from '../realm';
@@ -49,20 +50,28 @@ function MainContainer() {
                 let rn = route.name;
 
                 if (rn === hatchName) {
-                  iconName = focused ? 'egg' : 'egg-outline';
+                  iconName = focused
+                    ? require('./screens/icons/egg-filled.png')
+                    : require('./screens/icons/egg-outline.png');
                 } else if (rn === detailsName) {
-                  iconName = focused ? 'bar-chart' : 'bar-chart-outline';
+                  iconName = focused
+                    ? require('./screens/icons/graph-filled.png')
+                    : require('./screens/icons/graph-outline.png');
                 } else if (rn === settingsName) {
-                  iconName = focused ? 'trophy' : 'trophy-outline';
+                  iconName = focused
+                    ? require('./screens/icons/trophy-filled.png')
+                    : require('./screens/icons/trophy-outline.png');
                 }
-
                 // You can return any component that you like here!
                 return (
-                  <Ionicons
-                    name={iconName}
-                    size={size}
-                    color={color}
-                    paddingTop={100}
+                  <Image
+                    source={iconName}
+                    style={{
+                      resizeMode: 'contain',
+                      height: 5,
+                      width: 50,
+                      paddingTop: 100,
+                    }}
                   />
                 );
               },
