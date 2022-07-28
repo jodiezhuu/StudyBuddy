@@ -29,28 +29,24 @@ export const isActivated = monsterId => {
 
 export const getTotalTime = () => {
   const {useRealm, useQuery, useObject} = MonsterContext;
-  const realm = useRealm();
-  const monsters = realm.objects('Monster');
   var total = 0;
-  for (var monster of monsters) {
-    if (monster.totalTime) {
+  for (let i = 1; i <= 21; i++){
+    var monster = useObject('Monster', i.toString());
+    if (!isNaN(monster.totalTime)) {
       total += parseInt(monster.totalTime, 10);
     }
   }
-  // var time = 0;
-  // for (const entry in timeEntries) {
-  //   time += parseInt(entry, 10);
-  //   Alert.alert(entry);
-  // }
   return total.toString();
 };
 
-// export const getTotalMonster = () => {
-//   const {useRealm, useQuery, useObject} = MonsterContext;
-//   const realm = useRealm();
-//   var monsterCount = 0;
-//   for (let i = 1; i <= 21; i++) {
-//     monsterCount += parseInt(realm.objects('Monster')[i].count, 10);
-//   }
-//   return monsterCount;
-// };
+export const getTotalMonster = () => {
+  const {useRealm, useQuery, useObject} = MonsterContext;
+  var total = 0;
+  for (let i = 1; i <= 21; i++){
+    var monster = useObject('Monster', i.toString());
+    if (!isNaN(monster.totalTime)) {
+      total += parseInt(monster.count, 10);
+    }
+  }
+  return total.toString();
+};
