@@ -9,6 +9,7 @@ Disclaimer: For the purpose of the demo, each minute was set to 5 seconds to sav
 # What we used to make the app:
 - React Native
 - JavaScript
+- TypeScript
 - Realm by MongoDB
 
 # Next steps:
