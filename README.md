@@ -9,3 +9,7 @@ https://user-images.githubusercontent.com/82774370/181685895-8b8dabe4-dab7-4df5-
 - React Native
 - JavaScript
 - Realm by MongoDB
+
+# Next steps:
+- Configure user logins
+- Migrate to cross-platform/open-source database 
