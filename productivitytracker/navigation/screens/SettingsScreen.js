@@ -289,7 +289,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 305,
     left: 70,
-    tintColor: 'black',
   },
   monster13Inactive: {
     width: 80,
@@ -408,7 +407,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 170,
     right: 225,
-    tintColor: 'black',
   },
   monster21Inactive: {
     width: 50,
