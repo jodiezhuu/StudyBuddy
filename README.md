@@ -4,6 +4,7 @@ StudyBuddy is an iOS productivity app that runs a background timer and allows us
 
 Product Demo:
 https://user-images.githubusercontent.com/82774370/181685895-8b8dabe4-dab7-4df5-9e1f-fd96fc7186ee.mp4
+Disclaimer: For the purpose of the demo, each minute was set to 5 seconds to save time.
 
 # What we used to make the app:
 - React Native
