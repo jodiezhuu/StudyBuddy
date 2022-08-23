@@ -4,7 +4,7 @@ StudyBuddy is an iOS productivity app that runs a background timer and allows us
 
 Product Demo:
 Home Screen/ Background timer:
-https://user-images.githu<img width="353" alt="Screen Shot 2022-08-23 at 12 11 22 AM" src="https://user-images.githubusercontent.com/82774370/186067899-7759b1de-0f31-4380-a011-4d783d32a49b.png">
+<img width="353" alt="Screen Shot 2022-08-23 at 12 11 22 AM" src="https://user-images.githubusercontent.com/82774370/186067899-7759b1de-0f31-4380-a011-4d783d32a49b.png">
 
 Collection of Monsters:
 <img width="356" alt="Screen Shot 2022-08-23 at 12 11 46 AM" src="https://user-images.githubusercontent.com/82774370/186067942-907cdf95-d9a1-4241-b1cb-7b65246695f0.png">
