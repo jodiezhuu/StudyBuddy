@@ -19,8 +19,7 @@ Fun fact! Each monster was drawn by hand and a representation of our closest fri
 
 ### Demo video:
 
-![74381457-4B72-4BC7-A1F9-54B5ABF37689_1_102_o](https://user-images.githubusercontent.com/82774370/186070495-ec554b78-7ba6-4cf7-be8e-eca552ae28e4.jpeg)
-
+https://user-images.githubusercontent.com/82774370/186071000-4d0cc735-4118-470e-898a-d11163b34ac9.mov
 
 # What we used to make the app:
 - React Native
