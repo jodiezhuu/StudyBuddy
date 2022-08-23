@@ -77,7 +77,7 @@ export default function HatchScreen({navigation}) {
   const startTimer = () => {
     if (!running) {
       const duration =
-        parseInt(selectedHours) * 3600 + parseInt(selectedMins) * 5; // change bak
+        parseInt(selectedHours) * 3600 + parseInt(selectedMins) * 60; // change bak
       if (duration == 0) {
         setEndDate(null);
       } else {
