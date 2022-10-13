@@ -29,4 +29,4 @@ Fun fact! Each monster was drawn by hand and a representation of our closest fri
 
 # Next steps:
 - Configure user logins
-- Migrate to cross-platform/open-source database 
+- Migrate to cross-platform/open-source database
